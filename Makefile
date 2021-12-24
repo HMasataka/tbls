@@ -1,4 +1,4 @@
-PKG = github.com/k1LoW/tbls
+PKG = github.com/HMasataka/tbls
 COMMIT = $$(git describe --tags --always)
 OSNAME=${shell uname -s}
 ifeq ($(OSNAME),Darwin)

@@ -8,8 +8,8 @@ import (
 
 	"regexp"
 
-	"github.com/k1LoW/tbls/ddl"
-	"github.com/k1LoW/tbls/schema"
+	"github.com/HMasataka/tbls/ddl"
+	"github.com/HMasataka/tbls/schema"
 	"github.com/pkg/errors"
 )
 

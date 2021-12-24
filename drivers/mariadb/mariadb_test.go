@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/HMasataka/tbls/schema"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/k1LoW/tbls/schema"
 	"github.com/xo/dburl"
 )
 

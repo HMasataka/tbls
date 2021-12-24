@@ -1,10 +1,10 @@
 <p align="center">
 <br>
-<img src="https://github.com/k1LoW/tbls/raw/main/img/logo.png" width="200" alt="tbls">
+<img src="https://github.com/HMasataka/tbls/raw/main/img/logo.png" width="200" alt="tbls">
 <br><br>
 </p>
 
-[![Build Status](https://github.com/k1LoW/tbls/workflows/build/badge.svg)](https://github.com/k1LoW/tbls/actions) [![GitHub release](https://img.shields.io/github/release/k1LoW/tbls.svg)](https://github.com/k1LoW/tbls/releases) [![codecov](https://codecov.io/gh/k1LoW/tbls/branch/master/graph/badge.svg)](https://codecov.io/gh/k1LoW/tbls) [![Go Report Card](https://goreportcard.com/badge/github.com/k1LoW/tbls)](https://goreportcard.com/report/github.com/k1LoW/tbls) [![Docker Build](https://img.shields.io/docker/cloud/build/k1low/tbls)](https://hub.docker.com/r/k1low/tbls)
+[![Build Status](https://github.com/HMasataka/tbls/workflows/build/badge.svg)](https://github.com/HMasataka/tbls/actions) [![GitHub release](https://img.shields.io/github/release/HMasataka/tbls.svg)](https://github.com/HMasataka/tbls/releases) [![codecov](https://codecov.io/gh/HMasataka/tbls/branch/master/graph/badge.svg)](https://codecov.io/gh/HMasataka/tbls) [![Go Report Card](https://goreportcard.com/badge/github.com/HMasataka/tbls)](https://goreportcard.com/report/github.com/HMasataka/tbls) [![Docker Build](https://img.shields.io/docker/cloud/build/k1low/tbls)](https://hub.docker.com/r/k1low/tbls)
 
 `tbls` is a CI-Friendly tool for document a database, written in Go.
 
@@ -66,34 +66,34 @@ $ docker run --rm -v $PWD:/work ghcr.io/k1low/tbls doc postgres://dbuser:dbpass@
 
 **deb:**
 
-Use [dpkg-i-from-url](https://github.com/k1LoW/dpkg-i-from-url)
+Use [dpkg-i-from-url](https://github.com/HMasataka/dpkg-i-from-url)
 
 ``` console
 $ export TBLS_VERSION=X.X.X
-$ curl -L https://git.io/dpkg-i-from-url | bash -s -- https://github.com/k1LoW/tbls/releases/download/v$TBLS_VERSION/tbls_$TBLS_VERSION-1_amd64.deb
+$ curl -L https://git.io/dpkg-i-from-url | bash -s -- https://github.com/HMasataka/tbls/releases/download/v$TBLS_VERSION/tbls_$TBLS_VERSION-1_amd64.deb
 ```
 
 **RPM:**
 
 ``` console
 $ export TBLS_VERSION=X.X.X
-$ yum install https://github.com/k1LoW/tbls/releases/download/v$TBLS_VERSION/tbls_$TBLS_VERSION-1_amd64.rpm
+$ yum install https://github.com/HMasataka/tbls/releases/download/v$TBLS_VERSION/tbls_$TBLS_VERSION-1_amd64.rpm
 ```
 
 **homebrew tap:**
 
 ```console
-$ brew install k1LoW/tap/tbls
+$ brew install HMasataka/tap/tbls
 ```
 
 **manually:**
 
-Download binary from [releases page](https://github.com/k1LoW/tbls/releases)
+Download binary from [releases page](https://github.com/HMasataka/tbls/releases)
 
 **go insall:**
 
 ```console
-$ go insall github.com/k1LoW/tbls@main
+$ go insall github.com/HMasataka/tbls@main
 ```
 
 **docker:**

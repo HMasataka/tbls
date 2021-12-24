@@ -6,8 +6,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/k1LoW/tbls/dict"
-	"github.com/k1LoW/tbls/schema"
+	"github.com/HMasataka/tbls/dict"
+	"github.com/HMasataka/tbls/schema"
 )
 
 // Output is interface for output

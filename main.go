@@ -27,7 +27,7 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 	_ "github.com/snowflakedb/gosnowflake"
 
-	"github.com/k1LoW/tbls/cmd"
+	"github.com/HMasataka/tbls/cmd"
 )
 
 func main() {

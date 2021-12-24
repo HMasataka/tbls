@@ -29,11 +29,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/k1LoW/tbls/cmdutil"
-	"github.com/k1LoW/tbls/config"
-	"github.com/k1LoW/tbls/datasource"
-	"github.com/k1LoW/tbls/output/json"
-	"github.com/k1LoW/tbls/version"
+	"github.com/HMasataka/tbls/cmdutil"
+	"github.com/HMasataka/tbls/config"
+	"github.com/HMasataka/tbls/datasource"
+	"github.com/HMasataka/tbls/output/json"
+	"github.com/HMasataka/tbls/version"
 	"github.com/spf13/cobra"
 )
 

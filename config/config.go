@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/HMasataka/tbls/dict"
+	"github.com/HMasataka/tbls/schema"
+	ver "github.com/HMasataka/tbls/version"
 	"github.com/aquasecurity/go-version/pkg/version"
 	"github.com/goccy/go-yaml"
 	"github.com/k1LoW/expand"
-	"github.com/k1LoW/tbls/dict"
-	"github.com/k1LoW/tbls/schema"
-	ver "github.com/k1LoW/tbls/version"
 	"github.com/minio/pkg/wildcard"
 	"github.com/pkg/errors"
 )

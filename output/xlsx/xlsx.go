@@ -8,8 +8,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/k1LoW/tbls/config"
-	"github.com/k1LoW/tbls/schema"
+	"github.com/HMasataka/tbls/config"
+	"github.com/HMasataka/tbls/schema"
 	"github.com/loadoff/excl"
 	"github.com/pkg/errors"
 )

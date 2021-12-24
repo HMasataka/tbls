@@ -9,9 +9,9 @@ import (
 
 	"cloud.google.com/go/bigquery"
 	cloudspanner "cloud.google.com/go/spanner"
-	"github.com/k1LoW/tbls/drivers/bq"
-	"github.com/k1LoW/tbls/drivers/spanner"
-	"github.com/k1LoW/tbls/schema"
+	"github.com/HMasataka/tbls/drivers/bq"
+	"github.com/HMasataka/tbls/drivers/spanner"
+	"github.com/HMasataka/tbls/schema"
 	"google.golang.org/api/option"
 )
 

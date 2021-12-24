@@ -8,9 +8,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/k1LoW/tbls/config"
-	"github.com/k1LoW/tbls/output"
-	"github.com/k1LoW/tbls/schema"
+	"github.com/HMasataka/tbls/config"
+	"github.com/HMasataka/tbls/output"
+	"github.com/HMasataka/tbls/schema"
 	"github.com/pkg/errors"
 )
 

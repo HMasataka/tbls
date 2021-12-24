@@ -6,10 +6,10 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/HMasataka/tbls/ddl"
+	"github.com/HMasataka/tbls/drivers"
+	"github.com/HMasataka/tbls/schema"
 	"github.com/aquasecurity/go-version/pkg/version"
-	"github.com/k1LoW/tbls/ddl"
-	"github.com/k1LoW/tbls/drivers"
-	"github.com/k1LoW/tbls/schema"
 	"github.com/pkg/errors"
 )
 

@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/HMasataka/tbls/dict"
+	"github.com/HMasataka/tbls/schema"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/k1LoW/tbls/dict"
-	"github.com/k1LoW/tbls/schema"
 )
 
 func TestOutputSchema(t *testing.T) {

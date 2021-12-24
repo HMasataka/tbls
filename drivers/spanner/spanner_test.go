@@ -9,7 +9,7 @@ import (
 
 	"cloud.google.com/go/spanner"
 	cloudspanner "cloud.google.com/go/spanner"
-	"github.com/k1LoW/tbls/schema"
+	"github.com/HMasataka/tbls/schema"
 )
 
 var ctx context.Context

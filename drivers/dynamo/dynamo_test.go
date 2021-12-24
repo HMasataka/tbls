@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/HMasataka/tbls/schema"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
-	"github.com/k1LoW/tbls/schema"
 )
 
 var region = "ap-northeast-1"

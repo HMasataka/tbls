@@ -25,9 +25,9 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/k1LoW/tbls/cmdutil"
-	"github.com/k1LoW/tbls/config"
-	"github.com/k1LoW/tbls/datasource"
+	"github.com/HMasataka/tbls/cmdutil"
+	"github.com/HMasataka/tbls/config"
+	"github.com/HMasataka/tbls/datasource"
 	"github.com/labstack/gommon/color"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"

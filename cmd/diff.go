@@ -25,11 +25,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/k1LoW/tbls/cmdutil"
-	"github.com/k1LoW/tbls/config"
-	"github.com/k1LoW/tbls/datasource"
-	"github.com/k1LoW/tbls/output/md"
-	"github.com/k1LoW/tbls/schema"
+	"github.com/HMasataka/tbls/cmdutil"
+	"github.com/HMasataka/tbls/config"
+	"github.com/HMasataka/tbls/datasource"
+	"github.com/HMasataka/tbls/output/md"
+	"github.com/HMasataka/tbls/schema"
 	"github.com/spf13/cobra"
 )
 

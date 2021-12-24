@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/HMasataka/tbls/config"
+	"github.com/HMasataka/tbls/schema"
 	"github.com/google/go-cmp/cmp"
-	"github.com/k1LoW/tbls/config"
-	"github.com/k1LoW/tbls/schema"
 )
 
 var tests = []struct {

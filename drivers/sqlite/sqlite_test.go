@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/k1LoW/tbls/schema"
+	"github.com/HMasataka/tbls/schema"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/xo/dburl"
 )

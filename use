@@ -2,7 +2,7 @@
 
 # Usage:
 #
-#   source <(curl https://raw.githubusercontent.com/k1LoW/tbls/main/use)
+#   source <(curl https://raw.githubusercontent.com/HMasataka/tbls/main/use)
 #
 # Reference:
 #   https://github.com/goreleaser/get
@@ -17,7 +17,7 @@ then
 fi
 TBLS_ARCHIVE="/tmp/tbls.${TBLS_EXT}"
 
-TBLS_RELEASES_URL="https://github.com/k1LoW/tbls/releases"
+TBLS_RELEASES_URL="https://github.com/HMasataka/tbls/releases"
 test -z "${TBLS_TMPDIR:-}" && TBLS_TMPDIR="$(mktemp -d)"
 
 last_version() {

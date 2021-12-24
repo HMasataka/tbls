@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/HMasataka/tbls/config"
+	"github.com/HMasataka/tbls/schema"
 	"github.com/goccy/go-yaml"
-	"github.com/k1LoW/tbls/config"
-	"github.com/k1LoW/tbls/schema"
 	"github.com/pkg/errors"
 )
 

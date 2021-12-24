@@ -17,7 +17,7 @@ require (
 	github.com/google/go-cmp v0.5.6
 	github.com/k1LoW/expand v0.1.0
 	github.com/k1LoW/ffff v0.2.0
-	github.com/k1LoW/tbls v1.54.2
+	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/labstack/gommon v0.3.1
 	github.com/lib/pq v1.10.4
 	github.com/loadoff/excl v0.0.0-20171207172601-c6a9e4c4b4c4

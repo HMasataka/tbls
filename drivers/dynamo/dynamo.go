@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"regexp"
 
+	"github.com/HMasataka/tbls/dict"
+	"github.com/HMasataka/tbls/schema"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
-	"github.com/k1LoW/tbls/dict"
-	"github.com/k1LoW/tbls/schema"
 	"github.com/pkg/errors"
 )
 

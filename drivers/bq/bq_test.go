@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"cloud.google.com/go/bigquery"
-	"github.com/k1LoW/tbls/schema"
+	"github.com/HMasataka/tbls/schema"
 )
 
 var projectID = "bigquery-public-data"

@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/HMasataka/tbls/schema"
 	_ "github.com/denisenkom/go-mssqldb"
-	"github.com/k1LoW/tbls/schema"
 	"github.com/xo/dburl"
 )
 

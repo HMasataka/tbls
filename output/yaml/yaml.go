@@ -3,8 +3,8 @@ package yaml
 import (
 	"io"
 
+	"github.com/HMasataka/tbls/schema"
 	"github.com/goccy/go-yaml"
-	"github.com/k1LoW/tbls/schema"
 )
 
 // YAML struct

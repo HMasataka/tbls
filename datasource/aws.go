@@ -7,11 +7,11 @@ import (
 	"os"
 	"strings"
 
+	"github.com/HMasataka/tbls/drivers/dynamo"
+	"github.com/HMasataka/tbls/schema"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
-	"github.com/k1LoW/tbls/drivers/dynamo"
-	"github.com/k1LoW/tbls/schema"
 )
 
 // AnalizeDynamodb analyze `dynamodb://`
